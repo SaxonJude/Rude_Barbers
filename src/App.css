@@ -13,6 +13,13 @@
     color: unset;
     text-decoration: none;
   }
+
+  .background_img {
+    /* border: 5px solid green; */
+    background-image: url("./assets/hero.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
   
   .gradient__bg {
     background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
@@ -31,11 +38,11 @@
   }
   
   .section__padding {
-    padding: 4rem 6rem;
+    padding: 6rem 12rem;
   }
   
   .section__margin {
-    margin: 4rem 6rem;
+    margin: 4rem 12rem;
   }
   
   .scale-up-center {

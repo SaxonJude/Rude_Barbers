@@ -1,0 +1,31 @@
+.header {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-container {
+    /* border: 1px solid blue; */
+    max-width: 656px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-container h1 {
+    margin: 0rem !important;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 100px;
+    color: #fff;
+}
+
+.header-container p {
+    font-family: var(--font-family2);
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    padding: 0.5rem 0rem 1.5rem 0rem;
+}

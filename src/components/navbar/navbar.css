@@ -5,7 +5,7 @@
     align-items: center;
 
     padding: 1rem 12rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .navbar-links {
@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding-right: 2rem
 }
 
@@ -35,11 +35,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: var(--button-width);
     height: var(--button-height);
     background-color: var(--button-color);
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: var(--font-family2);
 } 
 
 .navbar-appointment {
@@ -47,8 +49,7 @@
     line-height: var(--button-line-height);
 }
 
-.navbar-links_container p,
-.navbar-appointment {
+.navbar-links_container p {
     color: #fff;
     font-family: var(--font-family2);
     font-weight: 500;
