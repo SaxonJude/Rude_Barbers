@@ -5,7 +5,9 @@
     align-items: center;
 
     padding: 1rem 12rem;
-    /* border: 1px solid black; */
+    /* border: 1px solid black;
+    position: fixed;
+    width: 100%; */
 }
 
 .navbar-links {

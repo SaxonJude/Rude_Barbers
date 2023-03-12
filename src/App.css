@@ -14,11 +14,27 @@
     text-decoration: none;
   }
 
+  h2 {
+    text-transform: capitalize;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 50px;
+    color: #000;
+  }
+
   .background_img {
     /* border: 5px solid green; */
     background-image: url("./assets/hero.jpg");
     background-size: cover;
     background-attachment: fixed;
+  }
+
+  .background_paint-1 {
+    background-image: url("./assets/paint1.svg");
+    background-size: cover;
+    background-position: -150px 0px;
   }
   
   .gradient__bg {

@@ -12,11 +12,15 @@ const App = () => {
           <Navbar />
           <Header />
         </div>
-        <About />
+        <div className='background_paint-1'>
+          <About />
+        </div>
         <Services />
         <Pricing />
         <Lookbook />
-        <CTA />
+        <div className="background_paint-2">
+          <CTA />
+        </div>
         <Location />
         <Footer />
     </div>
