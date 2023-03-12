@@ -5,7 +5,7 @@ import judeandrufus2 from '../../assets/judeandrufus2.svg';
 
 const About = () => {
   return (
-    <div className='about section__padding'>
+    <div className='about section__padding' id='about'>
       <div className="about-container">
         <div className="about-container_img">
           <img src={judeandrufus2} alt="Jude and Rufus" />

@@ -3,7 +3,7 @@ import './location.css';
 
 const Location = () => {
   return (
-    <div>
+    <div className='location section__padding'>
       Location
     </div>
   )

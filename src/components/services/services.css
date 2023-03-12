@@ -1,0 +1,36 @@
+.services {
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.services-container {
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.services-container_cards {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    width: 100%;
+}
+
+.services-container_title {
+    /* border: 1px solid blue; */
+    margin-bottom: 4rem;
+}
+
+.underline {
+    width: 110px;
+    height: 2px;
+    background-color: var(--button-color);
+    margin-top: 0.5rem;
+}

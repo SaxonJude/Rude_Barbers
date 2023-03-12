@@ -1,0 +1,58 @@
+.cta {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem !important;
+}
+
+.cta-container {
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container_img {
+    background-image: url(../../assets/judeandrufus.jpg);
+    background-size: cover;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    flex: 1.5;
+}
+
+/* .cta-container_img img {
+    width: 100%;
+    max-width: 600px;
+} */
+
+.cta-container_content {
+    flex: 1;
+    height: 600px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 3rem;
+    background-color: var(--color-bg2);
+}
+
+.cta-container_content p {
+    font-family: var(--font-family2);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 1.5rem 0rem;
+}
+
+.cta-container_content h2 {
+    max-width: 200px;
+}

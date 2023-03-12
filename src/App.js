@@ -15,9 +15,13 @@ const App = () => {
         <div className='background_paint-1'>
           <About />
         </div>
-        <Services />
+        <div className="background_offwhite">
+          <Services />
+        </div>
         <Pricing />
+        <div className="background_offwhite">
         <Lookbook />
+        </div>
         <div className="background_paint-2">
           <CTA />
         </div>
