@@ -4,3 +4,109 @@
     align-items: center;
     flex-direction: row;
 }
+
+.location {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.location-container {
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+}
+
+.location-container_title {
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.location-container_box {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.location-container_box-content {
+    /* border: 1px solid black; */
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+}
+
+.location-container_box-content_inner {
+    position: relative;
+    /* border: 2px solid blue; */
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.location-container_box-content_inner p {
+    font-family: var(--font-family2);
+}
+
+.location_address {
+    /* border: 1px solid darkorchid; */
+}
+
+.location_address p {
+    padding: 1rem 0rem;
+}
+
+.location_openhours {
+    /* border: 1px solid red; */
+}
+
+.location_openhours h3 {
+    padding: 1rem 0rem;
+}
+
+.location_text_openhours {
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 0rem;
+}
+
+.location_text_openhours p:first-of-type {
+    margin-right: 1rem;
+}
+
+.location-container_box-map {
+    /* border: 1px solid black; */
+    display: flex;
+    flex: 1;
+}
+
+.location-container_box-map img {
+    width: 100%;
+    flex: 1;
+}
+
+.location_underline {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0;
+    top: 39%;
+    border: 2px dashed #EB592D;
+}
