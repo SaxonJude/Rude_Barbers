@@ -1,12 +1,12 @@
 .services {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
 .services-container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
 }
 

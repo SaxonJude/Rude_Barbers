@@ -13,6 +13,10 @@
     align-items: flex-start;
 }
 
+span {
+    color: var(--button-color);
+}
+
 .header-container h1 {
     margin: 0rem !important;
     font-family: var(--font-family);

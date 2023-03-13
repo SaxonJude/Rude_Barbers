@@ -25,7 +25,9 @@ const App = () => {
         <div className="background_paint-2">
           <CTA />
         </div>
-        <Location />
+        <div className="background_offwhite">
+          <Location />
+        </div>
         <Footer />
     </div>
   )

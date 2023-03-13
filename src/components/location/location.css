@@ -1,0 +1,6 @@
+.location_text_openhours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
